@@ -1,38 +1,41 @@
-#   MY FIRST PORTFOLIO
-
-#### This is my first portfolio website, 20th June 2021
-
-#### By Keith James aka [freestyletear]
-
-### Hi, <img src="https://raw.githubusercontent.com/<OWNER>/<OWNER>/master/<GIF_NAME>.gif" width="30px">
-
+<h1 align=center > WELCOME TO MY FIRST PERSONAL/ DEVELOPMENT PORTFOLIO </h1>
+<h4 align=center >This is my first portfolio website, 20th June 2021</h4>
+<h4 align=center >By Keith James</h4>
+<p align="center"> <img width="300" height="300" src="https://avatars.githubusercontent.com/u/85235878?v=4" alt="Image showcasing Keith James, the designer of this portfolio website and README respectively" /> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
 
 ## Description
-
 I did, i am and will continue to build this 'website' for it will and is containing fractions of parts of myself, by this i mean i seek to share the root of my development so as to coordinate with the rest of the world. With this as i call it My Portfolio i will be using this website to showcase my development from time to time.
-
 ## I am a student and inspired developer.
 - I am currently a student at [Moringa School.][website]
 - At Moringa School learning everything.
 - Creating a pathway to colaborate with other. developers.
 - Love watching Tech videos.
+- 🌱 I’m currently learning **Websites Designing/ Development.**
+- 👯 I’m looking to collaborate with other developers.
+- 👨‍💻 All of my projects are available at [freestyletear@github][website-2]
+- 💬 Ask me about **, HTML, CSS**, Javascript not that much but i am on the path to concquer it...
+## Languages and Tools
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
 
-## Technologies Used
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=freestyletear&show_icons=true&locale=en&layout=compact" alt="freestyletear github status on top languages used" /></p>
 
-HTML5,
-CSS3 &
-JS
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=freestyletear&show_icons=true&locale=en" alt="freestyletear github status on extra pins" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=freestyletear&" /></p>
 
 ## Sources
+
+- 👨‍💻 Link to the live site of [my portfolio][website-3]
 
 ## Support and contact details
 
 keith.james@student.moringaschool.com
+
 freestyletear@gmail.com
-
 ### License
-
 MIT Licence Copyright 2021 Keith James 
 
-
 [website]: https://moringaschool.com/
+[website-2]: https://github.com/freestyletear?tab=repositories
+[website-3]: https://freestyletear.github.io/Personal_Portfolio/
