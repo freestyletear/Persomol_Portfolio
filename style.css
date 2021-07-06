@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Playfair+Display+SC:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -38,15 +39,16 @@ nav ul li {
   display: inline-block;
   line-height: 80px;
   list-style: none;
-  margin: 0 50px;
-  font-size: 17px;
+  margin: 0 10px;
+  font-size: 20px;
   text-transform: uppercase;
-  padding: 7px 13px;
+  padding: 3px 13px;
   border-radius: 3px;
+  /* top: 0; */
 }
 nav ul li a {
   color: white;
-
+  
 }
 a.active,
 a:hover {
@@ -76,9 +78,10 @@ a:hover {
   color: #5f0700;
 }
 hr.page {
-  width: 90%;
+  width: 80%;
   align-items: center;
-  margin: 0 80px 40px 80px;
+  margin: 0 80px 40px 150px;
+  /* margin: 0 150px; */
   height: 1rem;
   background-color: #000;
 }
@@ -86,8 +89,23 @@ h1 {
   text-shadow: 1px -1px 8px black;
   color: white;
   font-size: 450%;
+  margin-top: 13%;
+  font-family: 'Playfair Display SC', serif;
 }
-
+h3 span#one {
+  color: chartreuse;
+}
+h3 span#two {
+  color: #000;
+}
+h3 span#three {
+  color: #042a63;
+}
+div.inspire {
+  background-color: rgba(0, 0, 128, 0.5);
+  margin: 0 450px;
+  
+}
 /* Section 2 End of Home Page */
 
 /* Beginning of Section 3 */
@@ -103,43 +121,14 @@ h1 {
   -o-background-size: cover;
 }
 
-/* #portrait {
+#portrait {
+  margin-top: 10px;
+  margin-right: 20px;
   border-radius: 25%;
-  margin-top: 0px;
-  margin-bottom: 10px;
-}  */
-img#hover.transition {
   height: 500px;
   width: 450px;
   float: left;
-  margin-top: 20px;
-  margin-right: 20px;
-  border-radius: 25%;
-}
-div.b-p > img#portrait {
-  height: 500px;
-  width: 450px;
-  float: left;
-  margin-top: 20px;
-  margin-right: 20px;
-  border-radius: 25%;
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  left: 0;
-}
-
-/* #header {
-  color: white;
-}
-
-#tagline {
-  text-shadow: 0px 0px 20px white;
-}
-#aboutMePanel {
-  margin-top: 50px;
-} */
-
+} 
 p {
   color: white;
 } 
@@ -162,10 +151,14 @@ div.b-p>p>em#p-1 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+div#about.container-header h2.hero {
+  margin-top: 5px;
+  padding-top: 5px;
+  top: 10px;
+}
 /* End of Section 3 */
 
 /* Beginning of Section 4 */
-
 #portfolio {
   padding-top: 100px;
   background: url("./Images/mypointofview.jpg") no-repeat center center fixed;
@@ -180,11 +173,9 @@ div.b-p>p>em#p-1 {
 #portfolio-items {
   margin-top: 50px;
 }
-
 /* End of Section 4 */
 
 /* Beginning of Section 5 */
-
 #contact {
   padding-top: 90px;
   background: url("./Images/thereyouhaveit.jpg") no-repeat center center;
@@ -228,13 +219,17 @@ div.b-p>p>em#p-1 {
 }
 div#contact.container > div#header.container-fluid > div#email-number > p {
   color: #000;
+  /* margin-top: 2px; */
 }
-div#contact.container > div#header.container-fluid > div#email-number {
+div#contact.container div#header.container-fluid div#email-number {
   color: #000;
   margin-top: 250px;
   background: rgba(0, 0, 128, 0.3);
-  padding-bottom: 20px;
-  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  padding-top: 5px;
+}
+div#header.container-fluid div#email-number p span {
+  font-weight: bold;
 }
 /* Beginning of Contact Form */
 div#contact-form.container {
@@ -242,6 +237,7 @@ div#contact-form.container {
   min-width: 700px;
   margin: 50px auto 0px;
   background-color: rgba(0, 0, 128, 0.3);
+  position: relative;
   /* align-items: center; */
 }
 ul#contact-form {
@@ -253,61 +249,3 @@ div#contact-form.container>ul>hr.form-slice {
 /* end of Contact Form */
 
 /* End of Section 5 */
-
-
-
-
-
-
-
-/* * {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-body {
-  align-items: center;
-  justify-content: center;
-  background-color: #222f35;
-  display: flex;
-  height: 100vh;
-  flex-wrap: wrap;
-}
-img#hover{
-    height: 275px;
-    width: 183px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-}
-.box {
-    position: relative;
-    width: 187px;
-    height: 280px;
-    display: inline-block;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 15px;
-    border: 2px solid #fff;
-}
-img {
-    transition: all linear 2s;
-}
-.box:hover img {
-    opacity: 0;
-}
-.box:hover img#hover {
-    opacity: 1;
-}
-img#size {
-    height: 275px;
-    width: 183px;
-} */

@@ -8,13 +8,15 @@
     <title>Keith James-Portfolio</title>
   </head>
   <body>
+
+    <!-- Section 1 Beginning of Navigation Bar-->
     <nav>
       <label class="logo">Keith James</label>
       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a id="one" href="#home">Home</a></li>
+        <li><a id="two" href="#about">About</a></li>
+        <li><a id="three" href="#portfolio">Portfolio</a></li>
+        <li><a id="four" href="./contact/">Contact</a></li>
       </ul>
     </nav>
     <!-- Section 1 End of Navigation Bar-->
@@ -23,9 +25,16 @@
 
     <div id="home" class="container">
       <div id="header" class="container-fluid">
-        <h1>KEITH JAMES</h1>
+        <h1>Keith James <br> <span>Welcomes You</span></h1>
+        <div class="inspire">
         <h2 class="hero">On the road to Web Designing and Development</h2>
-        <hr class="page" />
+        <h3>
+          <span id="one">Connect</span>,
+          <span id="two">Inspire</span>,
+          <span id="three">Develop</span>
+        </h3>
+        </div>
+          <!-- <hr class="page" /> -->
       </div>
     </div>
     <!-- Section 2 End of Home Page -->
@@ -37,8 +46,7 @@
         <hr class="page" />
         <div class="biography">
           <div class="b-p">
-            <img  class="transition"  id="hover" src="./Images/ian-schneider-TamMbr4okv4-unsplash.jpg" alt="">
-            <img  class="transition" id="portrait" src="./Images/Me.jpg" alt="Image showcasing Keith James at Slumcode Hub" />
+            <img id="portrait" src="./Images/Me.jpg" alt="Image showcasing Keith James at Slumcode Hub" />
             <p>
               Hi, my name is Keith James currently residing in Nairobi Kenya. I
               am a junior, for an avarage of two to three months now i have been
@@ -91,6 +99,10 @@
       <div id="header" class="container-header">
         <h2 class="hero">Portfolio</h2>
         <hr class="page" />
+      </div>
+      <div class="slot">
+        <a href="./portfolio/calculator/index.html"><img src="./Images/calculator.png" alt=""></a>
+        <a href="./portfolio/count_down_time/index.html"><img src="./Images/timer.jpg" alt=""></a>
       </div>
     </div>
 
@@ -162,43 +174,11 @@
           </ul>
           <h3>Number</h3>
           <p>+254788507559</p>
+          <p>Copyright &#169 2021 <span>myportfolio</span> by Keith James</p>
         </div>
       </div>
     </div>
-
     <!-- End of Sectioon 5 -->
+
   </body>
 </html>
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Change background image on hover with transition css</title>
-</head>
-<body>
-    <div class="box" >
-        <img src="./images/2.jpeg" >
-        <img id="hover" src="./images/3.jpeg" >
-    </div>
-     <div class="box" >
-        <img id="size" src="./images/alexander-krivitskiy-WTvsx1hlQUs-unsplash.jpg" >
-        <img id="hover" src="./images/AP5.jpg" >
-    </div>
-     <div class="box" >
-        <img id="size" src="./images/7.png" >
-        <img id="hover" src="./images/drink2.jpg" >
-    </div>
-     <div class="box" >
-        <img id="size" src="./images/xxx.png" >
-        <img id="hover" src="./images/7b05667374997bf801c9a13a5ae09117.jpg" >
-    </div>
-</body>
-</html> -->
