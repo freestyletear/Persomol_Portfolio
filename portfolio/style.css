@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Section 1 Beginning of Navigation Bar_Two */
+
+nav {
+  background: #042a63;
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  z-index: 1;
+  position: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 3px 13px;
+  border-radius: 3px;
+  /* top: 0; */
+}
+nav ul li a {
+  color: white;
+}
+a.active,
+a:hover {
+  color: lightgreen;
+  transition: 0.5s;
+}
+/* Section 1 End of Navigation Bar_Two */
+
+/* Beginning of Section 2 Contact Information  */
+div#slot.container {
+  padding-top: 90px;
+  background-color: #000000;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#slot.container div.style {
+    margin: 250px 0px;
+}
+div#slot.container div.style img#one {
+    margin-right: 30px;
+}
+/* End of Section 2 Contact Informatio  */

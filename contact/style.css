@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Section 1 Beginning of Navigation Bar_Two */
+
+nav {
+  background: #042a63;
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  z-index: 1;
+  position: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 3px 13px;
+  border-radius: 3px;
+  /* top: 0; */
+}
+nav ul li a {
+  color: white;
+  
+}
+a.active,
+a:hover {
+  color: lightgreen;
+  transition: 0.5s;
+}
+
+/* Section 1 End of Navigation Bar_Two */
+
+/* Beginning of Section 2 Contact Information  */
+div#form.container {
+  padding-top: 90px;
+  background: url("../Images/thereyouhaveit.jpg") no-repeat center center;
+  background-size: cover;
+  /* background-color: #b0aba8; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-size: large;
+}
+ul#contact-form li#class-input input {
+    width: 25%;
+    height: 50px;
+    margin-top: 15px;
+    padding: 0 15px 0 15px;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-size: 19px;
+
+}
+ul#contact-form li.name-message textarea {
+    width: 25%;
+    height: 100px;
+    margin-top: 15px;
+    padding: 0 15px 0 15px;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-size: 19px;
+}
+ul#contact-form li button.btn{ 
+    width: 25%;
+    height: 50px;
+    background-color: rgb(3, 31, 62);
+    color: rgb(255, 0, 0);
+    border: 0px;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 19px;
+    font-style: bold;
+    border-radius: 30px;
+} 
+ul#contact-form li button.btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #ec2f4b, #009f);
+}
+ul#contact-form li {
+    list-style: none;
+}
+ul#contact-form {
+    /* display: block; */
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+    position: relative;
+}
+
+/* End of Section 2 Contact Informatio  */
+
+/* body {
+    background-color: rgb(3, 31, 62);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+
