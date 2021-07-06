@@ -2,10 +2,18 @@
 <h4 align=center >This is my first portfolio website, 20th June 2021</h4>
 <h4 align=center >By Keith James</h4>
 <p align="center"> <img width="300" height="300" src="https://avatars.githubusercontent.com/u/85235878?v=4" alt="Image showcasing Keith James, the designer of this portfolio website and README respectively" /> </p>
+
+==============================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
+
+[![GitHub Issues](https://img.shields.io/github/issues/freestyletear/Personal_Portfolio)](https://freestyletear.github.io/Personal_Portfolio/issues)
+
+---
 
 ## Description
 I did, i am and will continue to build this 'website' for it will and is containing fractions of parts of myself, by this i mean i seek to share the root of my development so as to coordinate with the rest of the world. With this as i call it My Portfolio i will be using this website to showcase my development from time to time.
+
+---
 ## I am a student and inspired developer.
 - I am currently a student at [Moringa School.][website]
 - At Moringa School learning everything.
@@ -15,6 +23,8 @@ I did, i am and will continue to build this 'website' for it will and is contain
 - 👯 I’m looking to collaborate with other developers.
 - 👨‍💻 All of my projects are available at [freestyletear@github][website-2]
 - 💬 Ask me about **, HTML, CSS**, Javascript not that much but i am on the path to concquer it...
+
+---
 ## Languages and Tools
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
 
@@ -24,18 +34,53 @@ I did, i am and will continue to build this 'website' for it will and is contain
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=freestyletear&" /></p>
 
+---
+### Development
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
+
+---
+### Bug / Feature Request
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/freestyletear/Personal_Portfolio/issues/new) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/freestyletear/Personal_Portfolio/issues/new). Please include sample queries and their corresponding results.
+
+---
+## Features
+- Count-down timer.
+- HTML, CSS making of calculator.
+
+---
 ## Sources
 
 - 👨‍💻 Link to the live site of [my portfolio][website-3]
 
+
+---
 ## Support and contact details
 
 keith.james@student.moringaschool.com
 
 freestyletear@gmail.com
+
+---
 ### License
-MIT Licence Copyright 2021 Keith James 
+>You can check out the full license [here][website-4]
+
+This project is licensed under the terms of the **MIT** license.
+
 
 [website]: https://moringaschool.com/
 [website-2]: https://github.com/freestyletear?tab=repositories
 [website-3]: https://freestyletear.github.io/Personal_Portfolio/
+[website-4]: https://github.com/freestyletear/Personal_Portfolio/blob/master/LICENCE

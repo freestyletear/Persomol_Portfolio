@@ -23,17 +23,50 @@
 
     <!-- Beginning of Section 2 Contact Information -->
     <div id="form" class="container">
-        <div id="contact-form" class="container">
+      <h2 class="greetings">Whether you're interested in working with me or just want to say hello, I'd love to hear</h2>
+      <h2  class="greetings">from you!</h2>
+      <div id="contact-form" class="container">
           <ul id="contact-form">
-            <li id="class-input" class="name-one" ><input type="text"name="first_name"placeholder="Your First Name"/> </li>
-            <li id="class-input" class="name-second" ><input type="text"name="second_name"placeholder="Your Second Name"/></li>
-            <li id="class-input" class="name-email" ><input type="text"name="second_name"placeholder="Your Email Address"/> </li>
-            <li class="name-message" ><textarea cols="46" rows="4" placeholder="Type in Your Message Here..."name="comments"></textarea></li> 
-            <li><button class="btn" type="submit" >Send</button></li>
-            <!-- <li><input class="btn btn-submit" type="submit" value="Send" /></li> -->
+            <li id="class-input" class="name-second" ><input type="text" name="name" placeholder="NAME" data-error="Field can't be blank!" required></li>
+            <li id="class-input" class="name-email" ><input type="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required> </li>
+            <li class="name-message" ><textarea cols="46" rows="4" placeholder="MESSAGE..."name="message" data-error="Minimum of 10 characters" required></textarea></li> 
+            <li><input class="btn btn-submit" type="submit" value="SEND" /></li>
           </ul>
-        </div> 
+      </div>
+        <div id="email-number">
+          <h3>Email</h3>
+            <ul>
+              <li>keith.james@student.moringaschool.com</li>
+              <li>freestyletear@gmail.com</li>
+              <li>keithjames9261@gmail.com</li>
+            </ul>
+          <h3>Number</h3>
+          <p>+254788507559</p>
+        </div>
     </div>
+      <div id="email-number" class="container">
+        <!-- <div class="social-links">
+          <span><a href="https://www.linkedin.com/in/keith-james-34a3041ba/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+          <span><a href="https://twitter.com/KeithJa90059609" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
+          <span><a href="https://github.com/freestyletear" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+          <span><a href="https://codepen.io/freestyletear" target="_blank"><i class="fa fa-codepen fa-2x"></i></a></span>
+        </div> -->
+        <h2>CONNECT WITH ME</h2>
+        <h3>Email</h3>
+          <ul>
+              <li>keith.james@student.moringaschool.com</li>
+          </ul>
+          <ul>
+              <li>freestyletear@gmail.com</li>
+          </ul>
+          <ul>
+              <li>keithjames9261@gmail.com</li>
+          </ul>
+        <h3>Number</h3>
+           <p>+254788507559</p>
+        <p id="two" >Copyright &#169 2021 <span>myportfolio</span> by Keith James</p>
+        </div>
+    
     <!-- End of Section 2 Contact Informatio -->    
 </body>
 </html>
