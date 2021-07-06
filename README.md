@@ -44,7 +44,7 @@ MIT Licence Copyright 2021 Keith James
 
 
 
-<h1 align="center">Welcome to Rental Management System</h1>
+<!-- <h1 align="center">Welcome to Rental Management System</h1>
 <h3 align="center">We help manage the landlords poroperty</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anthony64m&label=Profile%20views&color=0e75b6&style=flat" alt="anthony64m" /> </p>
@@ -93,7 +93,7 @@ MIT Licence Copyright 2021 Keith James
 
 - 📄 Know about my experiences [n/a](n/a)
 
-- ⚡ Fun fact **I think I'm funny**
+- ⚡ Fun fact **I think I'm funny** -->
 
 
 <!-- <h3 align="left">Languages and Tools:</h3>
