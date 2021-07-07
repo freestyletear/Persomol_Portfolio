@@ -170,9 +170,53 @@ div#about.container-header h2.hero {
   -o-background-size: cover;
   font-size: large;
 }
-#portfolio-items {
-  margin-top: 50px;
+div.slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+div.slot div.two ul li img {
+  height: 300px;
+  width: 300px;
+}
+div.slot ul li {
+  list-style: none;
+}
+div.slot div#one ul li img {
+  /* position: absolute; */
+  /* margin-left: 50px; */
+  /* display: inline-block; */
+  /* margin-top: 10px;
+  display: block;
+  flex-direction: row;
+  float: right; */
+}
+div.slot div#two ul li img {
+  margin-right: 80px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+div.slot div#three ul li img {
+  margin-bottom: 10px;
+}
+/* #portfolio-items {
+  margin-top: 50px;
+} */
+/* div#portfolio.container-fluid div.slot a#one img {
+  height: 360px;
+  width: 300px;
+} */
+/* div#portfolio.container-fluid div.slot a#two img {
+  height: 300px;
+  width: 300px;
+}
+div#portfolio.container-fluid a#three img {
+
+} */
+/* div#portfolio.container-fluid div.slot div.two a img {
+  height: 300px;
+  width: 300px;
+} */
 /* End of Section 4 */
 
 /* Beginning of Section 5 */
