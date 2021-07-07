@@ -15,14 +15,11 @@ I did, i am and will continue to build this 'website' for it will and is contain
 
 ---
 ## I am a student and inspired developer.
-- I am currently a student at [Moringa School.][website]
-- At Moringa School learning everything.
-- Creating a pathway to colaborate with other. developers.
+- I am currently a student at [Moringa School ][website]Learning everything **Websites Designing/ Development.**
+- 🌱 👯 Creating a pathway to colaborate with other. developers.
 - Love watching Tech videos.
-- 🌱 I’m currently learning **Websites Designing/ Development.**
-- 👯 I’m looking to collaborate with other developers.
 - 👨‍💻 All of my projects are available at [freestyletear@github][website-2]
-- 💬 Ask me about **, HTML, CSS**, Javascript not that much but i am on the path to concquer it...
+- 💬 Ask me about **, HTML, CSS**, Javascript not that much but already on the path to concquer it...
 
 ---
 ## Languages and Tools
