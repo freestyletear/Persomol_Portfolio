@@ -73,12 +73,20 @@ div#contact-form.container {
   display: flex;
   align-items: center;
   justify-content: center;
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 div#form.container h2.greetings {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Playfair Display SC', serif;
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 div#contact-form.container ul#contact-form li#class-input input {
   width: 100%;
@@ -88,6 +96,10 @@ div#contact-form.container ul#contact-form li#class-input input {
   color: dimgrey;
   font-size: 14px;
   font-size: 19px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 div#contact-form.container ul#contact-form li textarea {
   width: 100%;
@@ -97,6 +109,10 @@ div#contact-form.container ul#contact-form li textarea {
   color: dimgrey;
   font-size: 14px;
   font-size: 19px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 div#contact-form.container ul#contact-form li input.btn {
     width:50%;
@@ -109,6 +125,10 @@ div#contact-form.container ul#contact-form li input.btn {
     font-size: 19px;
     font-style: bold;
     border-radius: 30px;
+      background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 div#contact-form.container ul#contact-form li input.btn-submit:hover {
     cursor: pointer;
@@ -129,11 +149,16 @@ div#email-number.container {
   justify-content: center;
   width: 100%;
   background: rgb(3, 31, 62);
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 } 
 div#email-number.container h2 {
   text-decoration: underline;
   margin-top: 10px;
   margin-bottom: 2px;
+  
 }
 div#email-number.container ul li {
   color: white;
