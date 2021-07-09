@@ -1,181 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Section 1 Beginning of Navigation Bar_Two */
-
-nav {
-  background: #042a63;
-  height: 80px;
-  width: 100%;
-  line-height: 80px;
-  z-index: 1;
-  position: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-label.logo {
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-nav ul {
-  float: right;
-}
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  list-style: none;
-  margin: 0 10px;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 3px 13px;
-  border-radius: 3px;
-  /* top: 0; */
-}
-nav ul li a {
-  color: white;
-  
-}
-a.active,
-a:hover {
-  color: lightgreen;
-  transition: 0.5s;
-}
-
-/* Section 1 End of Navigation Bar_Two */
-
-/* Beginning of Section 2 Contact Information  */
-div#form.container {
-  padding-top: 90px;
-  background: url("../Images/thereyouhaveit.jpg") no-repeat center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  font-size: large;
-}
-div#contact-form.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/images/chuttersnap-JChRnikx0tM-unsplash.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    
 }
-div#form.container h2.greetings {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Playfair Display SC', serif;
-    background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+#welcome-note {
+    margin-bottom: 30px;
+    /* color: rgb(128,0,0); */
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    /* font-size: 13vw; */
+    /* mix-blend-mode: screen; */
+    /* background: #ffffff; */
+    text-shadow: 1px -1px 8px black;}
+#welcome-note h1#note-one {
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
 }
-div#contact-form.container ul#contact-form li#class-input input {
-  width: 100%;
-  height: 40px;
-  margin-top: 15px;
-  padding: 0 15px 0 15px;
-  color: dimgrey;
-  font-size: 14px;
-  font-size: 19px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+#welcome-note h2#note-two {
+    margin-left: 250px;
 }
-div#contact-form.container ul#contact-form li textarea {
-  width: 100%;
-  height: 100px;
-  margin-top: 15px;
-  padding: 0 15px 0 15px;
-  color: dimgrey;
-  font-size: 14px;
-  font-size: 19px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-div#contact-form.container ul#contact-form li input.btn {
-    width:50%;
-    height: 50px;
-    background-color: rgb(3, 31, 62);
-    color: rgb(255, 0, 0);
-    border: 0px;
-    margin-top: 30px;
-    margin-left: 100px;
-    font-size: 19px;
-    font-style: bold;
-    border-radius: 30px;
-      background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-div#contact-form.container ul#contact-form li input.btn-submit:hover {
-    cursor: pointer;
-    background: linear-gradient(to right, #ec2f4b, #009f);
-}
-ul#contact-form li {
-    list-style: none;
-}
-/* a.active, */
-/* a:hover  */
-/* End of Section 2 Contact Informatio  */
 
-/* Beginning of Footer section */
-div#email-number.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background: rgb(3, 31, 62);
-    background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-} 
-div#email-number.container h2 {
-  text-decoration: underline;
-  margin-top: 10px;
-  margin-bottom: 2px;
-  
+/* Beginning of section Birthday Collector */
+
+.birthdayGenderCollector {
+    width: 50%;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.95);
+    border: 2px solid purple;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px gray;
 }
-div#email-number.container ul li {
-  color: white;
-  list-style: none;
+
+h3 {
+    margin-bottom: 20px;
 }
-div#email-number.container p {
-  color: white;
+
+form {
+    width: 100%;
 }
-div#email-number.container p#two {
-  margin-bottom: 10px;
+
+form :first-child {
+    display: flex;
+    flex-direction: column;
 }
-div#email-number.container h3 {
-  color: rgb(255, 0, 0);
-  /* margin: 1px 0px; */
-  padding: 1.5px 0px;
+
+form :first-child input {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: rgb(128,0,0);
 }
-div#email-number.container p#two span {
-  font-weight: bold
+
+form :first-child label {
+    margin-bottom: 20px;
 }
-/* End of Footer Section */
+
+form div input::-webkit-inner-spin-button, 
+form div input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+#radioInput {
+    display: flex;
+}
+
+#radioInput label {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;
+    background-color: rgb(128,0,0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    border: 1px solid purple;
+}
+
+#not-checked {
+    color: red;
+    margin-bottom: 10px;
+    background-color: rgb(231, 224, 224);
+    padding: 0.01px;
+    width: 19%;
+    
+}
+
+#results {
+    color: rgb(128,0,0);
+    margin-left: 20px;
+    background-color: #ffffff;
+    border: 2px solid purple;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.myResults {
+    width: 50%;
+    padding: 40px;
+    background-color: rgba(128,0,0,0.3);
+    border: 2px solid purple;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 20px;
+    display: flex;
+}
+
+#emptyDate {
+    color: red;
+    margin-bottom: 10px;
+    background-color: rgb(231, 224, 224);
+    padding: 0.01px;
+    width: 19%;
+}
