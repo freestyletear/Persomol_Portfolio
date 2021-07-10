@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Playfair+Display+SC:wght@700&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');* {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -12,48 +13,46 @@
   text-rendering: optimizeLegibility;
 }
 /* Section 1 Beginning of Navigation Bar */
-
 nav {
+  display: flex;
+  line-height: 80px;
   background: #042a63;
   height: 80px;
   width: 100%;
-  line-height: 80px;
   z-index: 1;
   position: fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+
 }
-label.logo {
-  color: white;
+.navbar-brand {
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
   font-weight: bold;
+  padding: 0 500px 0 50px;
 }
-nav ul {
-  float: right;
+nav div label .nav-link {
+  font-family: 'Great Vibes', cursive;
+
 }
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  list-style: none;
-  margin: 0 10px;
+nav div ul.navbar {
+  margin-top: -15px;
   font-size: 20px;
   text-transform: uppercase;
-  padding: 3px 13px;
-  border-radius: 3px;
-  /* top: 0; */
+  list-style: none;
 }
-nav ul li a {
+a.nav-link {
   color: white;
-  
+  font-family: 'Uchen', serif;
 }
-a.active,
-a:hover {
+a#hover.active,
+ a#hover:hover {
   color: lightgreen;
-  transition: 0.5s;
+} 
+.d-flex {
+  margin-top: 20px;
 }
 
 /* Section 1 End of Navigation Bar */
