@@ -10,17 +10,33 @@
     <link rel="icon" href="https://image.flaticon.com/icons/png/128/4470/4470382.png" type="image/icon type">
   </head>
   <body>
-
-    <!-- Section 1 Beginning of Navigation Bar-->
+        <!-- Section 1 Beginning of Navigation Bar-->
     <nav>
-       <label class="logo">Keith James</label>
-      <ul class="navbar">
-        <li><a id="one" href="#home">Home</a></li>
-        <li><a id="two" href="#about">About</a></li>
-        <li><a id="three" href="#portfolio">Portfolio</a></li>
-        <li><a id="four" href="./contact/">Contact</a></li>
-      </ul> 
+      <div>
+        <label for="title" class="navbar-brand">
+          <a id="hover" class="nav-link" aria-current="page" href="#home">Keith James</a>
+        </label>
+      </div>
+      <div>
+          <ul class="navbar">
+            <li class="nav-item">
+              <a id="hover" class="nav-link" aria-current="page" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a id="hover" class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a id="hover" class="nav-link" href="#">Contact</a>
+          </ul> 
+      </div>
+      <div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </nav>
+
     <!-- Section 1 End of Navigation Bar-->
 
     <!-- Section 2 Beginning of Home Page -->
