@@ -60,23 +60,27 @@ a:hover {
 
 /* Section 2 Beginning of Home Page */
 
-#home {
+ #home {
   padding-top: 100px;
   background: url("./Images/whoareyou.jpg") no-repeat center center fixed;
   background-size: cover;
   background-color: #b0aba8;
   min-height: 800px;
+  max-width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  font-size: large;
+  margin-left: 0px;
+  margin-right: 0px;
+  clear: both;
+  /* font-size: large; */
 }
-.container-fluid {
+/* .container-fluid {
   text-align: center;
-}
-.hero {
+} */
+/* .hero {
   color: #5f0700;
-}
+} */
 hr.page {
   width: 80%;
   align-items: center;
@@ -85,7 +89,7 @@ hr.page {
   height: 1rem;
   background-color: #000;
 }
-h1 {
+/* h1 {
   text-shadow: 1px -1px 8px black;
   color: white;
   font-size: 450%;
@@ -105,7 +109,7 @@ div.inspire {
   background-color: rgba(0, 0, 128, 0.5);
   margin: 0 450px;
   
-}
+} */
 /* Section 2 End of Home Page */
 
 /* Beginning of Section 3 */
@@ -119,43 +123,78 @@ div.inspire {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  /* position: absolute; */
 }
-
-#portrait {
+.biography {
+  display: flex;
+  background: rgba(0, 0, 128, 0.5);
+}
+div img#portrait {
+  margin: 20px;
+  border-radius: 25%;
+  height: 500px;
+  width: 450px;
+}
+div.biography div.b-p {
+  color: white;
+  text-align: left;
   margin-top: 20px;
+}
+div.biography div.b-p div.slice {
+  border: 2px solid white;
+  width: 97%;
+  background-color: white;
+  margin: 5px;
+}
+div.biography div.b-p p a {
+  color: chartreuse;
+  text-decoration: underline;
+}
+/* div.biography div.b-p hr.slice {
+  color: white;
+  height: 2px;
+} */
+/* #portrait {
+  margin-top: 10px;
   margin-right: 20px;
   border-radius: 25%;
-  height: 515px;
-  width: 440px;
+  height: 500px;
+  width: 450px;
   float: left;
-} 
-p {
+}  */
+/* p {
   color: white;
-} 
+}  */
 
-.b-p {
+/* .b-p {
   background: rgba(0, 0, 128, 0.5);
   padding: 2rem;
   margin: 20px;
   font-size: x-large;
   text-align: left;
-}
-div.biography > div.b-p > p > a {
+} */
+/* div.biography > div.b-p > p > a {
   color: chartreuse;
   text-decoration: underline;
-}
+} */
 
-div.b-p>p>em#p-1 {
-  color: rgb(88, 1, 1);
+/* div.b-p>p>em#p-1 {
+  color: rgba(0, 0, 128, 0.5);
   background: rgba(255, 255, 0, 0.6);
   padding-left: 1rem;
   padding-right: 1rem;
-}
-div#about.container-header h2.hero {
+} */
+/* div#about.container-header h2.hero {
   margin-top: 5px;
   padding-top: 5px;
   top: 10px;
-}
+} */
+/* div.biography>div.b-p>div.slice {
+  border: 2px solid white;
+  width: 900px;
+  background-color: white;
+  margin-left: 35%;
+} */
 /* End of Section 3 */
 
 /* Beginning of Section 4 */
@@ -229,6 +268,7 @@ div#portfolio.container-fluid a#three img {
   -moz-background-size: cover;
   -o-background-size: cover;
   font-size: large;
+  max-width: 100%;
 }
 
 .action-button {
