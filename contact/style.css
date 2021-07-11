@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Section 1 Beginning of Navigation Bar */
+nav {
+  display: flex;
+  line-height: 80px;
+  background: #042a63;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+.navbar-brand {
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+  padding: 0 500px 0 50px;
+}
+nav div label .nav-link {
+  font-family: 'Great Vibes', cursive;
+
+}
+nav div ul.navbar {
+  margin-top: -15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  list-style: none;
+}
+a.nav-link {
+  color: white;
+  font-family: 'Uchen', serif;
+}
+a#hover.active,
+ a#hover:hover {
+  color: lightgreen;
+} 
+.d-flex {
+  margin-top: 20px;
+}
+form.d-flex input {
+  margin-right: 2px;
+}
+
+/* Section 1 End of Navigation Bar */

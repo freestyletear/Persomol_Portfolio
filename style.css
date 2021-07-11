@@ -192,29 +192,43 @@ div.biography div.b-p p em#p-1 {
 }
 div#one.card {
   margin-right: 50px;
+  margin-left: 60px;
+}
+div#one.card div.card-body h5.card-title {
+  margin-top: 220px;
 }
 div#two.card {
   margin-right: 50px;
+}
+div#two.card div.card-body h5.card-title {
+  margin-top: 170px;
+}
+div#three.card {
+  margin-right: 50px;
+}
+div#three.card div.card-body h5.card-title {
+  margin-top: 90px;
 }
 image.card-img-top {
   border: 5px solid red;
 }
 h5.card-title {
   color: #042a63;
+  
 }
 /* End of Section 4 */
 
 /* Beginning of Section 5 */
 #contact {
-  padding-top: 90px;
+  /* padding-top: 90px; */
   background: url("./Images/thereyouhaveit.jpg") no-repeat center center;
   background-size: cover;
   background-color: #b0aba8;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  font-size: large;
-  max-width: 100%;
+  /* font-size: large; */
+  /* max-width: 100%; */
 }
 
 .action-button {
@@ -247,35 +261,19 @@ h5.card-title {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
 }
-div#contact.container > div#header.container-fluid > div#email-number > p {
-  color: #000;
-  /* margin-top: 2px; */
+div#email-number {
+  /* width: 100%; */
+  background: rgba(0, 0, 128, 0.5);
+  width: 1400px;
+  margin: 0;
+  padding: 0;
 }
-div#contact.container div#header.container-fluid div#email-number {
-  color: #000;
-  margin-top: 250px;
-  background: rgba(0, 0, 128, 0.3);
-  /* padding-bottom: 20px; */
-  padding-top: 5px;
+div#email-number div h3 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
-div#header.container-fluid div#email-number p span {
+div#email-number div p span {
   font-weight: bold;
 }
-/* Beginning of Contact Form */
-div#contact-form.container {
-  max-width: 510px;
-  min-width: 700px;
-  margin: 50px auto 0px;
-  background-color: rgba(0, 0, 128, 0.3);
-  position: relative;
-  /* align-items: center; */
-}
-ul#contact-form {
-  list-style: none;
-}
-div#contact-form.container>ul>hr.form-slice {
-  margin: 1rem 0 1rem 0;
-}
-/* end of Contact Form */
 
 /* End of Section 5 */
