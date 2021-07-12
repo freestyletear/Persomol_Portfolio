@@ -228,8 +228,10 @@ footer {
   padding: 10px;
   text-align: center;
 }
+footer p span {
+  font-weight: bold;
+}
 
-responsive styles 
 
 @media screen and (max-width: 1400px) {
   .banner .welcome {

@@ -60,3 +60,39 @@ form.d-flex input {
 }
 
 /* Section 1 End of Navigation Bar */
+
+/* Beginning of Section 2 */
+
+.form-container {
+  margin: 80px;
+  margin-left: 350px;
+  position: absolute;
+}
+div.flex div img {
+  border: 3px solid black;
+  padding: 5px;
+}
+ul#two {
+  margin-left: 100px;
+}
+ul li input {
+  width: 350px;
+  /* margin: 20px 0 12px 0; */
+}
+ul li textarea {
+  width: 800px;
+}
+div.flex {
+  display: flex;
+  margin-top: 10px;
+}
+div.welcome-note {
+  padding-left: 40px;
+}
+ul li {
+  list-style: none;
+}
+.fab {
+  color: black;
+}
+/* End of section 2 */
