@@ -39,7 +39,7 @@ Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
 
-- Fork the repo
+- Fork the repo (<https://github.com/freestyletear/Personal_Portfolio/fork>)
 - Create a new branch (`git checkout -b improve-feature`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
@@ -63,6 +63,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## Sources
 
 - 👨‍💻 Link to the live site of [my portfolio][website-3]
+<p align="left"> <img width="300" height="300" src="https://raw.githubusercontent.com/freestyletear/Personal_Portfolio/master/Images/R1.png" alt="Image showcasing Keith James' portfolio landing page" /> </p>
 
 
 ---

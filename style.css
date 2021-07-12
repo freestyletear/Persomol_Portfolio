@@ -120,7 +120,6 @@ hr.page {
   width: 80%;
   align-items: center;
   margin: 0 80px 40px 150px;
-  /* margin: 0 150px; */
   height: 1rem;
   background-color: #000;
 }
@@ -277,13 +276,9 @@ h5.card-title {
   -webkit-transform: translate(0px, 5px);
 }
 div#email-number {
-  width: 100%;
   background: rgba(0, 0, 128, 0.5);
-  /* width: 1498px; */
   margin: 0;
   padding: 0;
-  background-size: cover;
-  /* border: 3px solid white; */
   color: white;
 }
 ul  li {
