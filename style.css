@@ -187,6 +187,33 @@ div.biography div.b-p p em#p-1 {
   -o-background-size: cover;
   font-size: large;
 }
+/* body {
+  flex-wrap: wrap;
+} */
+img#hover.card-img-top{
+    height: 228px;
+    width: 285px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.box {
+    position: relative;
+    height: 228px;
+    width: 285px;
+    display: inline-block;
+    overflow: hidden;
+}
+img.card-img-top {
+    transition: all linear 2s;
+}
+.box:hover img.card-img-top {
+    opacity: 0;
+}
+.box:hover img#hover.card-img-top {
+    opacity: 1;
+}
 .projects {
   display: flex;
 }
@@ -194,20 +221,11 @@ div#one.card {
   margin-right: 50px;
   margin-left: 60px;
 }
-div#one.card div.card-body h5.card-title {
-  margin-top: 220px;
-}
 div#two.card {
   margin-right: 50px;
 }
-div#two.card div.card-body h5.card-title {
-  margin-top: 170px;
-}
 div#three.card {
   margin-right: 50px;
-}
-div#three.card div.card-body h5.card-title {
-  margin-top: 90px;
 }
 image.card-img-top {
   border: 5px solid red;
@@ -220,15 +238,12 @@ h5.card-title {
 
 /* Beginning of Section 5 */
 #contact {
-  /* padding-top: 90px; */
   background: url("./Images/thereyouhaveit.jpg") no-repeat center center;
   background-size: cover;
   background-color: #b0aba8;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  /* font-size: large; */
-  /* max-width: 100%; */
 }
 
 .action-button {
@@ -262,11 +277,17 @@ h5.card-title {
   -webkit-transform: translate(0px, 5px);
 }
 div#email-number {
-  /* width: 100%; */
+  width: 100%;
   background: rgba(0, 0, 128, 0.5);
-  width: 1400px;
+  /* width: 1498px; */
   margin: 0;
   padding: 0;
+  background-size: cover;
+  /* border: 3px solid white; */
+  color: white;
+}
+ul  li {
+  list-style: none;
 }
 div#email-number div h3 {
   margin-bottom: 0px;

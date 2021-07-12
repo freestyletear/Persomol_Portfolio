@@ -3,7 +3,7 @@
 <h4 align=center >By Keith James</h4>
 <p align="center"> <img width="300" height="300" src="https://avatars.githubusercontent.com/u/85235878?v=4" alt="Image showcasing Keith James, the designer of this portfolio website and README respectively" /> </p>
 
-==============================================================================
+===========================================================================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
 
 [![GitHub Issues](https://img.shields.io/github/issues/freestyletear/Personal_Portfolio)](https://freestyletear.github.io/Personal_Portfolio/issues)
@@ -11,6 +11,8 @@
 ---
 
 ## Description
+It’s hard to believe… that we have come this far, what started out as nothing more than the gaze of a shooting star from a humble home, has come full circle to a dedicated and aspired human being, me. Now that the doors to prosperity are wide open( through Moringa School ) why wait any longer but show you what this humble brains can do, as of now i am on the verge of conquering front-end website design/ development training so as to gain knowledge that in return will be beneficial to both you and i and to show an example of this you will find some of the projects that i have already accomplished while you scroll along my portfolio, i leave the rest to you hope you will enjoy.
+
 I did, i am and will continue to build this 'website' for it will and is containing fractions of parts of myself, by this i mean i seek to share the root of my development so as to coordinate with the rest of the world. With this as i call it My Portfolio i will be using this website to showcase my development from time to time.
 
 ---
