@@ -5,36 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Keith James-Portfolio</title>
     <link rel="icon" href="https://image.flaticon.com/icons/png/128/4470/4470382.png" type="image/icon type">
   </head>
   <body>
         <!-- Section 1 Beginning of Navigation Bar-->
     <nav>
-      <div>
-        <label for="title" class="navbar-brand">
-          <a id="hover" class="nav-link" aria-current="page" href="#home">Keith James</a>
-        </label>
-      </div>
-      <div>
-          <ul class="navbar">
-            <li class="nav-item">
-              <a id="hover" class="nav-link" aria-current="page" href="#about">about</a>
-            </li>
-            <li class="nav-item">
-              <a id="hover" class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a id="hover" class="nav-link" href="./contact/index.html">Contact</a>
+      <a id="hover" class="owner-name" aria-current="page" href="#home">Keith James</a>
+      <div id="navLinks" class="nav-links">
+          <p class="fa close" onclick="hideMenu()">&times</p>
+          <ul>
+            <li><a id="hover" aria-current="page" href="#home">home</a></li>
+            <li><a id="hover" aria-current="page" href="#about">about</a></li>
+            <li><a id="hover" aria-current="page" href="#portfolio">Portfolio</a></li>
+            <li><a id="hover" href="./contact/index.html">Contact</a>
           </ul> 
+          <p class="fa menu" onclick="showMenu()">&#8801</p>
       </div>
       <div>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
     </nav>
 
     <!-- Section 1 End of Navigation Bar-->
@@ -42,23 +31,23 @@
     <!-- Beginning of Section 2 -->
 
     <div id="home" class="container-fluid">
-         <div class="welcome-note">
-           <h1>Keith James</h1> 
-           <h1>Welcomes You</h1>
-         </div>
-        <div class="inspire">
-        <h2 class="hero">On the road to Web Designing and Development</h2>
+      <div class="welcome-note">
+        <h1>Keith James</h1> 
+        <h1>Welcomes You</h1>
+      </div>
+      <div class="inspire">
+        <h2>On the road to Web Designing and Development</h2>
+      </div>
+      <div class="bottom">
+        <h3>
+          <span id="one">Connect</span>,
+          <span id="two">Inspire</span>,
+          <span id="three">Develop</span>
+        </h3>
         </div>
-        <div class="bottom">
-          <h3>
-            <span id="one">Connect</span>,
-            <span id="two">Inspire</span>,
-            <span id="three">Develop</span>
-          </h3>
-        </div>
-        <div class="rights">
-          <p>Copyright &#169 2021 <span>Ofriend</span> designed by Keith James</p>
-        </div>
+      <div class="rights">
+        <p>Copyright &#169 2021 <span>myportfolio</span> designed by Keith James</p>
+      </div>
     </div>
     <!-- End of Section 2 -->
 
@@ -132,50 +121,50 @@
         <h2 class="hero">Portfolio</h2>
         <hr class="page" />
         <div class="projects">
-          <div id="one" class="card" style="width: 18rem;">
-            <div class="box">
-              <img src="./Images/moringa_school_logo.png" class="card-img-top" alt="Image being showcased as the Moringa School 2.0 web-page thumbnail">
-              <img id="hover" src="./Images/Me.jpg" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">
+            <div id="one" class="card" style="width: 18rem;">
+              <div class="box">
+                <img src="./Images/moringa_school_logo.png" class="card-img-top" alt="Image being showcased as the Moringa School 2.0 web-page thumbnail">
+                <img id="hover" src="./Images/Me.jpg" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Moringa 2.0</h5>
+                <p class="card-text">This is me doing out a trial(make over) of the  <a href="https://moringaschool.com/">Moringa School</a> website.</p>
+                <a href="./portfolio/moringa2.0/index.html" class="btn btn-primary">check me out</a>
+              </div>
             </div>
-            <div class="card-body">
-            <h5 class="card-title">Moringa 2.0</h5>
-              <p class="card-text">This is me doing out a trial(make over) of the  <a href="https://moringaschool.com/">Moringa School</a> website.</p>
-              <a href="./portfolio/moringa2.0/index.html" class="btn btn-primary">check me out</a>
+            <div id="two" class="card" style="width: 18rem;">
+              <div class="box">
+                <img src="./Images/timer.jpg" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">
+                <img id="hover" src="./Images/pexels-thirdman-5060985.jpg" class="card-img-top" alt="Image being showcased as the Akan Name Generator web-page thumbnail">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Count-Down timer</h5>
+                <p class="card-text">This is part of a webpage that can act as a timer to assist in setting duration for tasks, events and other similar kind of situations.</p>
+                <a href="./portfolio/count_down_time/index.html" class="btn btn-primary">check me out</a>
+              </div>
             </div>
-          </div>
-           <div id="two" class="card" style="width: 18rem;">
-            <div class="box">
-              <img src="./Images/timer.jpg" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">
-              <img id="hover" src="./Images/pexels-thirdman-5060985.jpg" class="card-img-top" alt="Image being showcased as the Akan Name Generator web-page thumbnail">
+            <div id="three" class="card" style="width: 18rem;">
+              <div class="box">
+                <img src="./Images/pexels-dazzle-jam-1029783.jpg" class="card-img-top" alt="Image being showcased as the Akan Name Generator web-page thumbnail">
+                <img id="hover" src="./Images/pexels-alexander-suhorucov-6457573.jpg" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">  
+              </div>   
+              <div class="card-body">
+              <h5 class="card-title">Akan Name Generator</h5>
+                <p class="card-text">According to your age and gender the syntax of this web-page determains your African name and displays it for you to see.</p>
+                <a href="./portfolio/akan_name_generator/index.html" class="btn btn-primary">check me out</a>
+              </div>
             </div>
-            <div class="card-body">
-            <h5 class="card-title">Count-Down timer</h5>
-              <p class="card-text">This is part of a webpage that can act as a timer to assist in setting duration for tasks, events and other similar kind of situations.</p>
-              <a href="./portfolio/count_down_time/index.html" class="btn btn-primary">check me out</a>
+            <div id="four" class="card" style="width: 18rem;">
+              <div class="box">
+                <img src="./Images/me2.1.jpg" class="card-img-top" alt="Image being showcased as the Akan Name Generator web-page thumbnail">
+                <img id="hover" src="./Images/moringa_school_logo.png" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Moringa Eats Pizza</h5>
+                <p class="card-text">This is me doing out a trial of the  <a href="https://moringaschool.com/">Moringa School</a> online Pizza shop.</p>
+                <a href="./portfolio/moringa_eats_pizza/index.html" class="btn btn-primary">check me out</a>
+              </div>
             </div>
-          </div>
-          <div id="three" class="card" style="width: 18rem;">
-            <div class="box">
-              <img src="./Images/pexels-dazzle-jam-1029783.jpg" class="card-img-top" alt="Image being showcased as the Akan Name Generator web-page thumbnail">
-              <img id="hover" src="./Images/pexels-alexander-suhorucov-6457573.jpg" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">  
-            </div>   
-            <div class="card-body">
-            <h5 class="card-title">Akan Name Generator</h5>
-              <p class="card-text">According to your age and gender the syntax of this web-page determains your African name and displays it for you to see.</p>
-              <a href="./portfolio/akan_name_generator/index.html" class="btn btn-primary">check me out</a>
-            </div>
-          </div>
-           <div id="four" class="card" style="width: 18rem;">
-            <div class="box">
-              <img src="./Images/me2.1.jpg" class="card-img-top" alt="Image being showcased as the Akan Name Generator web-page thumbnail">
-              <img id="hover" src="./Images/moringa_school_logo.png" class="card-img-top" alt="Image being showcased as the timer web-page thumbnail">
-            </div>
-            <div class="card-body">
-            <h5 class="card-title">Moringa Eats Pizza</h5>
-              <p class="card-text">This is me doing out a trial of the  <a href="https://moringaschool.com/">Moringa School</a> online Pizza shop.</p>
-              <a href="./portfolio/moringa_eats_pizza/index.html" class="btn btn-primary">check me out</a>
-            </div>
-          </div>
         </div>
     </div>
 
@@ -196,11 +185,9 @@
           >
           <a
             href="https://www.facebook.com/keithjamesmerchantmagnifico"
-            class="action-button green"
-            >Facebook</a
-          >
+            class="action-button green">Facebook</a>
         </div>
-        <div id="email-number">
+        <!-- <div id="email-number">
           <div>
             <h3>Email</h3>
           </div>
@@ -216,9 +203,10 @@
             <p>+254788507559</p>
             <p>Copyright &#169 2021 <span>myportfolio</span> by Keith James</p>
           </div>
-        </div>
+        </div> -->
     </div>
     <!-- End of Sectioon 5 -->
-
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="/js/script.js"></script>
   </body>
 </html>

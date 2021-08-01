@@ -51,19 +51,52 @@ a.nav-link {
 a#hover.active,
  a#hover:hover {
   color: lightgreen;
-} 
-.d-flex {
-  margin-top: 20px;
-}
-form.d-flex input {
-  margin-right: 2px;
 }
 
 /* Section 1 End of Navigation Bar */
 
 /* Beginning of Section 2 */
+.link-contact {
+  margin-top: 5.25%;
+  position: absolute;
+  width: 100%;
+}
+ .guide {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   width: 1600px;
+   margin-left: -15px;
+ }
+ .button img {
+   width: 1600px;
+   height: 647px;
+   margin-left: -15px;
+ }
+ .btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   position: absolute;
+   margin-top: -500px;
+   margin-left: 700px;
+   background-color: black;
+ }
+ .btn a {
+   text-decoration: none;
+ }
+ .btn a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-.form-container {
+/* .form-container {
   margin: 80px;
   margin-left: 350px;
   position: absolute;
@@ -94,5 +127,5 @@ ul li {
 }
 .fab {
   color: black;
-}
+} */
 /* End of section 2 */
