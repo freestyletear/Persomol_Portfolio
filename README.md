@@ -1,6 +1,8 @@
 <h1 align=center > WELCOME TO MY FIRST PERSONAL/ DEVELOPMENT PORTFOLIO </h1>
-<h4 align=center >This is my first portfolio website, 20th June 2021</h4>
-<h4 align=center >By Keith James</h4>
+
+<h3 align=center >Keith James</h3>
+
+<p align=center >This is my first portfolio website, 20th June 2021</p>
 <p align="center"> <img width="300" height="300" src="https://avatars.githubusercontent.com/u/85235878?v=4" alt="Image showcasing Keith James, the designer of this portfolio website and README respectively" /> </p>
 
 ===========================================================================================================================
